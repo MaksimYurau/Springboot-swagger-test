@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 @ApiModel(description = "Employee Model")
 public class Employee implements Serializable {
+
     private static final Long serialVersionUID = 1L;
 
     @ApiModelProperty(notes = "ID of the Employee", name = "id", required = true, value = "1")
