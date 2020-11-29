@@ -1,0 +1,35 @@
+POST http://localhost:8080/profile/v1/employee
+Content-Type: application/json
+
+{
+  "department": "string",
+  "id": 0,
+  "name": "string",
+  "phoneNumber": 0
+}
+
+###
+
+POST http://localhost:8080/profile/v1/employee
+Content-Type: application/json
+
+{
+  "department": "string2",
+  "id": 1,
+  "name": "string2",
+  "phoneNumber": 1
+}
+
+###
+
+GET http://localhost:8080/profile/v1/employee/fetch/all
+
+###
+
+GET http://localhost:8080/profile/v1/employee/fetch/name?name=Sam
+
+###
+
+GET http://localhost:8080/profile/v1/employee/fetch/department?department=Computer
+
+###

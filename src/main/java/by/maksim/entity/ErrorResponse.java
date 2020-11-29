@@ -1,4 +1,4 @@
-package by.maksim.springbootswaggertest.entity;
+package by.maksim.entity;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
